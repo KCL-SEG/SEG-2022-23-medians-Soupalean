@@ -6,7 +6,7 @@ def median(numbers):
     if length % 2 == 1:
         return numbers[int((length - 1 ) / 2)]
     else:
-        index = length / 2
+        index = int(length / 2)
         return (numbers[index] + numbers[index-1]) / 2
 
 while True:
