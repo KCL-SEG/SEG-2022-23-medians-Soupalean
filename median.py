@@ -4,7 +4,7 @@ def median(numbers):
     length = len(numbers)
     numbers.sort()
     if length % 2 == 1:
-        return numbers[num((length - 1 ) / 2)]
+        return numbers(int(length - 1 ) / 2)]
     else:
         index = length / 2
         return (numbers[index] + numbers[index-1]) / 2
